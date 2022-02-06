@@ -1,0 +1,78 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(27, 28, 87);
+
+}
+
+@media (min-width: 1024px) {
+  .hero {
+
+    flex-direction: row;
+
+  }
+}
+
+.card {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  border-radius: 12px;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+  background-color: rgba(89, 94, 97, 0.192);
+  margin-top: 20px;
+}
+
+img {
+  width: 150px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: -2px 2px 5px #3137a7;
+}
+
+h2 {
+  color: rgb(27, 28, 87);
+  text-shadow: -2px 2px 5px #3137a7;
+}
+
+a {
+  color: rgb(27, 28, 87);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(173, 22, 22);
+}
+
+a:visited {
+  color: rgb(77, 0, 128);
+}
+a:visited:hover {
+  color: rgb(173, 22, 22);
+}
+
+.li {
+  list-style-type: none;
+  text-shadow: -2px 2px 5px #3137a7;
+  color: rgb(11, 12, 36);
+}
+
+.about {
+  color: whitesmoke;
+  width: 80%;
+  padding-right: 25px;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .about {
+
+    width: 40%;
+
+  }
+}
+p {
+  text-shadow: -2px 2px 5px #3137a7;
+}

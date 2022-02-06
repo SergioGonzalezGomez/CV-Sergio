@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Roboto';
 }
 
 .App-logo {
@@ -35,4 +36,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+button {
+  cursor: pointer;
+}
+button:focus {
+  color: rgb(255, 255, 255);
+  background-color: #3137a7;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
 }

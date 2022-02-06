@@ -1,0 +1,88 @@
+.more-card {
+
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgba(240, 248, 255, 0.241);
+
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: -5px 4px 7px #3137a7;
+    color:#28293d;
+
+}
+
+@media (min-width: 1024px) {
+    .more-card {
+        padding-left: 20px;
+        padding-right: 20px;
+
+
+    }
+}
+
+.more-card__container {
+
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgba(240, 248, 255, 0.241);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    color: black;
+}
+
+@media (min-width: 1024px) {
+    .more-card__container {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+
+
+    }
+}
+
+.more-card__container--item {
+    width: 30%;
+    text-align: center;
+    align-self: center;
+    text-shadow: -11px 8px 13px #3137a7;
+    color: rgb(0, 0, 0)
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.more-card__languages {
+
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgba(240, 248, 255, 0.241);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .more-card__languages {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+
+
+    }
+}
+
+.more-card__languages--item {
+    width: 30%;
+    text-align: center;
+    align-self: center;
+    text-shadow: -5px 4px 7px #3137a7;
+    color: rgb(0, 0, 0)
+}

@@ -1,13 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@200;300;400&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Roboto', 'Source Serif 4', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: #196fcc; */
+  background-color: #00089c;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.custom-btn {
+  padding: 8px;
+ margin-left:5px;
+ margin-right:5px;
+  margin-top: 25px;
+  background-color: rgb(174, 168, 204);
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+  border: solid 3px whitesmoke;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  width: 30%;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: rgb(27, 28, 87);
+
+}
+@media (min-width: 1024px) {
+  .custom-btn {
+      padding: 15px;
+      width: 15%;
+      margin-left: 25px;
+      margin-right: 25px;
+      font-size: 16px;
+    
+  }
+}
+h4 {
+  font-family: 'Roboto';
+  
 }
