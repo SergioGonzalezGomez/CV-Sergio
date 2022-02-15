@@ -9,7 +9,7 @@ export const CV = {
       linkedIn: "https://www.linkedin.com/in/sergio-gonz%C3%A1lez-g%C3%B3mez-076423b8/",
       aboutMe: [
         {
-          info: "Cursando un Bootcamp de Full-Stack Developer en Upgrade-Hub 🤓",
+          info: "Formado en un Bootcamp de Full-Stack Developer en Upgrade-Hub 🤓",
         },
         {
           info: "Amante de la cinematografía, la fantasía y la ciencia ficción 🧙",
@@ -18,7 +18,7 @@ export const CV = {
           info: "Comunicador Audiovisual y Desarrollador Web 👨🏻‍💻",
         },
         {
-          info: "Siempre con ganas de descubrir y sobre todo, APRENDER",
+          info: "Siempre con ganas de descubrir y sobre todo de APRENDER",
         },
       ],
     },
@@ -129,6 +129,9 @@ export const CV = {
       "ANGULAR",
       "NODE",
       "REACT",
+      "PHP",
+      "SQL",
+      "SYMFONY",
       "ADOBE PHOTOSHOP",
       "ADOBE ILLUSTRATOR",
       "ADOBE PREMIERE",
